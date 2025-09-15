@@ -1,0 +1,43 @@
+{
+  "name": "final_backend",
+  "version": "2.0.0",
+  "description": "Multi-Tenant SaaS Food Delivery Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "node migrate.js",
+    "setup-saas": "node migrate.js setup-saas",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "saas",
+    "multi-tenant",
+    "food-delivery",
+    "api",
+    "nodejs"
+  ],
+  "author": "Food Delivery SaaS Team",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.12",
+    "@types/uuid": "^9.0.0"
+  }
+}
