@@ -33,19 +33,16 @@ The project consists of three main interfaces:
 *   🏪 **Restaurant Management** – Easy menu updates, toggle item availability, and order management.
     
 
-🛠️ Tools Used
---------------
+## 🛠️ Tools Used
 
-*   ⚛️ **React Native** – Mobile framework for high-performance iOS and Android apps.
-    
-*   🌐 **React.js** – Web framework for the Admin and Restaurant Manager portals.
-    
-*   🟢 **Node.js & Socket.io** – Backend engine for real-time, bidirectional communication.
-    
-*   🔐 **Appwrite / Firebase** – Backend-as-a-Service for authentication and database management.
-    
-*   🗺️ **Google Maps SDK** – For location services and pathfinding.
-    
+- ⚛️ **React Native** – Cross-platform framework for Customer and Rider mobile apps.
+- 🌐 **React.js** – Modern web framework for the Admin and Restaurant Manager portals.
+- 🟢 **Node.js & Express** – Scalable backend API to handle business logic and routing.
+- 🐘 **PostgreSQL** – Robust relational database for managing users, orders, and complex relationships.
+- 🔄 **Socket.io** – Powering real-time, bidirectional communication for order tracking.
+- 💳 **Chapa API** – Primary payment gateway for local and international transactions.
+
+---
 
 🚀 Get Started
 --------------
